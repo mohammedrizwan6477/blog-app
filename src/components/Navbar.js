@@ -32,7 +32,6 @@ const Navbar = () => {
             <Button
               color="inherit"
               variant="outlined"
-              color="error"
               component={Link}
               onClick={handleLogout}
             >
