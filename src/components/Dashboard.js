@@ -17,7 +17,7 @@ const Dashboard = () => {
   if (!Array.isArray(blogs)) {
     return <div>No Blogs</div>; 
   }
-
+    
   const blogDetails = (blogId) => {
     console.log("blogId:", blogId);
     navigate(`/addBlog/${blogId}`);
